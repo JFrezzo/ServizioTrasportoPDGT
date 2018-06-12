@@ -15,6 +15,8 @@ Servizio che consente, tramite un app android, all'utente di richiedere un servi
 
 Per consentire il corretto svolgimento della piattaforma sono presenti delle richieste GET e POST.
 
+Documentazione OpenApi tramite Swagger: https://app.swaggerhub.com/apis/JFrezzo/ServizioTrasportoPDGT/1.0.0-oas3
+
 #### Richieste GET:
 ###### 1)Aggiornare la posizione del Conducente in servizio con un suo mezzo: http://uberlikeapp.altervista.org/coordinate.php
 
