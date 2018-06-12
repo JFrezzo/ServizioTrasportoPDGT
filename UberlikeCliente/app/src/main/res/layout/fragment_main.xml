@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.jacopo.uberlikecliente.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:background="#ffffff">
+
+
+        <ImageView
+            android:id="@+id/imageOgg"
+            android:layout_width="80dp"
+            android:layout_marginTop="100dp"
+            android:layout_height="102dp"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/oggetti"
+            android:layout_gravity="center_horizontal" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consegna Oggetti"
+        android:id="@+id/btOggetti"
+        android:layout_gravity="center_horizontal" />
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/imageNormale"
+            android:layout_width="1003dp"
+            android:layout_height="73dp"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:src="@drawable/normale"
+            android:layout_marginTop="100dp"
+            android:layout_weight="0.30"
+            android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Richiesta Normale"
+        android:id="@+id/btnormale"
+        android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_servizi"
+            android:icon="@drawable/percorsi"
+            android:title="Servizi in corso" />
+
+
+    </group>
+
+    <item android:title="Impostazioni" >
+        <menu>
+
+            <item
+                android:id="@+id/nav_posizione"
+                android:icon="@drawable/map"
+                android:title="Aggiorna posizione" />
+
+            <item
+                android:id="@+id/nav_esci"
+                android:icon="@drawable/esci"
+                android:title="Esci" />
+
+
+        </menu>
+    </item>
+
+</menu>

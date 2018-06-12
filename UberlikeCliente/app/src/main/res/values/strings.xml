@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HereDriver</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_autenticazione">AutenticazioneActivity</string>
+    <string name="title_activity_invia_richiesta">Richiesta</string>
+
+
+    <string-array name="pagamento">
+        <item>Carta di credito</item>
+        <item>Contanti</item>
+    </string-array>
+    <string name="title_activity_esci">Impostazioni</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
